@@ -30,6 +30,18 @@ body {
    left: 0;
 }
 
+.menu-navegacao {
+    position: relative;
+    text-decoration: none;
+
+}
+
+nav a {
+    text-decoration: none; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .acoes {
      position: absolute;
      top: 50%;
