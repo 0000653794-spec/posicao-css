@@ -14,9 +14,9 @@ body {
     position: sticky;
     top: 0;
     z-index: 100 ;
-    background-color: #f3eaef;
-    color: #ffffff;
-    padding: 25px 25px;
+    background-color: #1A0D06;
+    color: #D9903D;
+    padding: 38px 38px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -25,26 +25,49 @@ body {
 
 .logo {
    position: absolute;
-   top: 50%;
-   bottom: 50%;
+   top: 40%;
    left: 0;
+   transform: translate(0, -50%);
 }
 
 .menu-navegacao {
     position: relative;
     text-decoration: none;
-
 }
 
 nav a {
     text-decoration: none; 
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    color: #7A3512;
+    background-color: #BFA38F;
+    position: relative;
+    margin-right: 10%;
 }
 
 .acoes {
      position: absolute;
      top: 50%;
      bottom: 50%;
-     right: 20%;
+     right: 10%;
+    
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color:#d19c82;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50%;
+    width: 150px;
+    font-weight: bold;
+
+}
+
+h2{
+    text-align: center;
+}
+.cards{
+    text-align: center;
+    margin-right: 2%;
 }
