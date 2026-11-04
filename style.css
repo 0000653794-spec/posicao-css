@@ -4,3 +4,35 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body {
+    background-color: #f1f5f9;
+    line-height: 1.6;
+}
+
+.barra-navegacao {
+    position: sticky;
+    top: 0;
+    z-index: 100 ;
+    background-color: #f3eaef;
+    color: #ffffff;
+    padding: 25px 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 4px 6px rgba(202, 123, 166, 0.1);
+}
+
+.logo {
+   position: absolute;
+   top: 50%;
+   bottom: 50%;
+   left: 0;
+}
+
+.acoes {
+     position: absolute;
+     top: 50%;
+     bottom: 50%;
+     right: 20%;
+}
